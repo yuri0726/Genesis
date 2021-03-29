@@ -1,0 +1,62 @@
+@font-face {
+      font-family: "genesis-text-office";
+      font-weight: 400;
+      src: url(../font/GenesisSansTextOffice-Regular.woff2) format("woff2");
+}
+
+@font-face {
+      font-family: "genesis-head-office";
+      font-weight: 400;
+      src: url(../font/GenesisSansHeadOffice-Regular.woff2) format("woff2");
+}
+
+@font-face {
+      font-family: "genesis-head-light";
+      font-weight: 400;
+      src: url(../font/GenesisSansHeadKRLight.woff2) format("woff2");
+}
+
+@font-face {
+      font-family: "genesis-head-regular";
+      font-weight: 400;
+      src: url(../font/GenesisSansHeadKRRegular.woff2) format("woff2");
+}
+
+@font-face {
+      font-family: "genesis-text";
+      font-weight: 400;
+      src: url(../font/GenesisSansTextKRRegular.woff2) format("woff2");
+}
+
+@font-face {
+      font-family: "KFO";
+      font-weight: 400;
+      src: url(../font/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");
+}
+
+html { scroll-behavior: smooth; }
+
+body { font-family: 'genesis-text',sans-serif; font-size: 16px; line-height: 1.5; font-weight: 400; letter-spacing: normal; color:rgb(17,17,17); }
+
+div, ul, li {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+/* Layout Style */
+
+button:hover { cursor: pointer; }
+button:focus { outline: none; }
+
+/* Text Style */
+
+
+h1 { font-family: 'genesis-head-light',sans-serif; font-weight: 400;   }
+h2 { font-family: 'genesis-head-light',sans-serif;  font-size: 24px; line-height: 28px; font-weight: 400; letter-spacing: normal; }
+h3 { font-family: 'genesis-head-light',sans-serif; font-weight: 400;  }
+h4 {  font-family:'genesis-head-light',sans-serif;  font-size: 20px; line-height: 24px; font-weight: 400; letter-spacing: normal;}
+h5 {font-family: 'genesis-head-light',sans-serif; font-weight: 400; }
+h6 { font-family: 'genesis-head-light',sans-serif; font-weight: 400;}
+
+p { font-family: 'genesis-text',sans-serif;  font-size: 16px; line-height: 1.5; font-weight: 400; letter-spacing: normal; }
